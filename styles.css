@@ -1,0 +1,48 @@
+body {
+ font-family: system-ui;
+}
+
+h1 {
+ color: navy;
+}
+
+.site-decription {
+ color: grey;
+ font-size: 0.9em;
+}
+
+textarea, select, input {
+ font-family: system-ui;
+ padding: 10px;
+ border: 1.5px solid grey;
+ border-radius: 10px;
+ background: white;
+}
+
+textarea:hover, select:hover, input:hover {
+ border: 1.5px solid darkslategrey;
+}
+
+textarea:focus, input[type="submit"]:focus, select:focus, input:focus {
+ outline: 2px solid skyblue;
+}
+
+input[type="submit"] {
+ border: none;
+ border-bottom: 4px solid silver;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 30px;
+ padding-right: 30px;
+ border-radius: 20px;
+ font-size: 1.2em;
+ background: white;
+ box-shadow: 0 0 7px lightgrey;
+ transition: border-bottom 200ms;
+}
+
+input[type="submit"]:hover {
+ border-bottom: 0px solid white;
+ background: rgba(100, 100, 100, 0.1);
+ transition: border-bottom 200ms;
+}
